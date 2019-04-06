@@ -15,7 +15,7 @@ class Cohorttests(unittest.TestCase):
         self.test_cohort.add_raw_student_data()
         self.assertEqual("Test Student1",self.test_cohort.students[0].student_name())
 
-    def test_add_raw_student_data_with_first_and_last_name(self):
+    def test_first_and_last_name(self):
         self.test_cohort = Cohort("Test")
         self.test_cohort.get_student_data("test_student_data.txt")
         self.test_cohort.add_raw_student_data()
