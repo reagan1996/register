@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f8c5510-10eb-4e70-a3d5-e2733b331c3f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cohort.py" beforeDir="false" afterPath="$PROJECT_DIR$/cohort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_register.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_register.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_student_data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_student_data.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test_register.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="287">
+              <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -28,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test_student_data.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+            <state relative-caret-position="51">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -37,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -52,7 +52,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cohort.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
@@ -89,10 +89,10 @@
         <option value="$PROJECT_DIR$/tests/tests.py" />
         <option value="$PROJECT_DIR$/students.py" />
         <option value="$PROJECT_DIR$/practice.py" />
-        <option value="$PROJECT_DIR$/tests/test_register.py" />
         <option value="$PROJECT_DIR$/cohort.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/tests/test_student_data.txt" />
+        <option value="$PROJECT_DIR$/tests/test_register.py" />
       </list>
     </option>
   </component>
@@ -254,15 +254,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_register_Cohorttests - 2019.04.06 at 16h 28m 46s.xml">
-      <configuration name="pytest for test_register.Cohorttests" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_register_Cohorttests_test_get_student_data - 2019.04.06 at 16h 29m 35s.xml">
-      <configuration name="pytest for test_register.Cohorttests.test_get_student_data" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_register_Cohorttests - 2019.04.06 at 16h 29m 46s.xml">
-      <configuration name="pytest for test_register.Cohorttests" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_register_Cohorttests - 2019.04.06 at 16h 30m 49s.xml">
       <configuration name="pytest for test_register.Cohorttests" configurationId="tests" />
     </history-entry>
@@ -282,6 +273,15 @@
       <configuration name="pytest for test_register.Cohorttests" configurationId="tests" />
     </history-entry>
     <history-entry file="pytest_for_test_register_Cohorttests - 2019.04.06 at 18h 41m 31s.xml">
+      <configuration name="pytest for test_register.Cohorttests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_register_Cohorttests - 2019.04.06 at 19h 21m 02s.xml">
+      <configuration name="pytest for test_register.Cohorttests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_register_Cohorttests - 2019.04.06 at 19h 22m 40s.xml">
+      <configuration name="pytest for test_register.Cohorttests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_register_Cohorttests - 2019.04.06 at 19h 25m 25s.xml">
       <configuration name="pytest for test_register.Cohorttests" configurationId="tests" />
     </history-entry>
   </component>
@@ -335,6 +335,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_register.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_student_data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/students.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/students.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -346,37 +377,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/students.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_student_data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_register.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
