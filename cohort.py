@@ -31,7 +31,12 @@ class Cohort:
     def add_raw_student_data(self):
         i = len(self.students)
         for student in self.students_raw:
-            new_student = Student(student)
+            name = student.split(" ")
+            last_names = ""
+            for names in name[1:]:
+                last_names = last_names + " " + names
+            other_names = last_names.lstrip(" ")
+            new_student = Student(name[0], other_names)
             self.add_students(new_student)
             self.students[i].add_course(self)
             i += 1
