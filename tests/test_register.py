@@ -9,7 +9,7 @@ class Cohorttests(unittest.TestCase):
         self.test_cohort = Cohort("Test")
         self.assertEqual(["Test Student1", "Test Student2", "Test Student 3", "Test"], self.test_cohort.get_student_data("test_student_data.txt"))
 
-    def test_add_raw_student_data(self):
+    def test_add_student_names_to_students(self):
         self.test_cohort = Cohort("Test")
         self.test_cohort.get_student_data("test_student_data.txt")
         self.test_cohort.add_student_names_to_students()
